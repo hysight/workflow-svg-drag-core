@@ -1,0 +1,41 @@
+/**
+ *@Author: hy-zhangb
+ *Date: 2018/10/23 18:54
+ *@Last Modified by: hy-zhangb
+ *@Last Modified time: 2018/10/23 18:54
+ *Email: lovewinders@163.com
+ *File Path: jointable - style
+ *@File Name: style
+ *@Description: Description
+ */
+.hc-node {
+  height: inherit;
+  padding-left: 10px;
+  &:hover {
+    .node-ctrl {
+      opacity: 1;
+    }
+  }
+  .tree-content-wrapper {
+    display: inline-block;
+    width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    .tree-title {
+      margin-left: 5px;
+    }
+  }
+  .node-ctrl {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .icon-yichang {
+    color: #F73F22;
+    background-color: #ffffff;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,15 @@
+/**
+ *@Author: hy-zhangb
+ *Date: 2018/10/23 9:58
+ *@Last Modified by: hy-zhangb
+ *@Last Modified time: 2018/10/23 9:58
+ *Email: lovewinders@163.com
+ *File Path: jointable - style
+ *@File Name: style
+ *@Description: Description
+ */
+.hc-join-icon {
+  &.join-disabled {
+    cursor: not-allowed;
+  }
+}

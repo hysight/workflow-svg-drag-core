@@ -1,0 +1,78 @@
+/**
+ *@Author: hy-zhangb
+ *Date: 2018/10/24 16:12
+ *@Last Modified by: hy-zhangb
+ *@Last Modified time: 2018/10/24 16:12
+ *Email: lovewinders@163.com
+ *File Path: jointable - style
+ *@File Name: style
+ *@Description: Description
+ */
+.hm-join-table {
+  .join-type-con {
+    display: flex;
+  }
+  .join-type-item {
+    display: flex;
+    flex: 1;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-right: 1px solid #dedede;
+    &.item-selected {
+      background-color: rgba(242, 242, 242, 1);
+    }
+    &.item-disabled {
+      //background-color: rgba(0, 0, 0, .5);
+      cursor: not-allowed;
+    }
+    &:last-child {
+      border-right: none;
+    }
+    .hc-join-icon {
+      display: inline-block;
+      width: 48px;
+      height: 30px;
+    }
+  }
+  .join-table-con {
+    height: 35px;
+    line-height: 35px;
+    background-color: #fafafa;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    .table-col {
+      display: inline-block;
+      width: 50%;
+      padding: 0 20px;
+    }
+  }
+  .join-field-con {
+    max-height: 170px;
+    padding: 0 10px;
+    overflow: auto;
+    .field-row {
+      display: flex;
+      width: 100%;
+      padding-top: 10px;
+    }
+    .field-col {
+      flex: 1;
+    }
+    .field-symbol {
+      width: 60px;
+      line-height: 32px;
+      text-align: center;
+    }
+    .field-opera {
+      width: 30px;
+      line-height: 32px;
+      text-align: center;
+    }
+  }
+  .join-add-con {
+    padding: 10px;
+  }
+}

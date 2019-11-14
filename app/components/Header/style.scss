@@ -1,0 +1,26 @@
+/**
+ *@Author: hy-zhangb
+ *Date: 2018/10/8 14:21
+ *@Last Modified by: hy-zhangb
+ *@Last Modified time: 2018/10/8 14:21
+ *Email: lovewinders@163.com
+ *File Path: jointable - style
+ *@File Name: style
+ *@Description: Description
+ */
+.hc-header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 40px;
+  background-color: #182C3E;
+  font-size: 18px;
+  .header-name, .header-panel {
+    color: #ffffff;
+  }
+  .header-panel {
+    font-size: 25px;
+    cursor: pointer;
+  }
+}

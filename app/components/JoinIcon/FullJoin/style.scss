@@ -1,0 +1,24 @@
+/**
+ *@Author: hy-zhangb
+ *Date: 2018/10/24 17:23
+ *@Last Modified by: hy-zhangb
+ *@Last Modified time: 2018/10/24 17:23
+ *Email: lovewinders@163.com
+ *File Path: jointable - style
+ *@File Name: style
+ *@Description: Description
+ */
+
+.hc-full-join-1 {
+  fill: #0cf;
+  stroke: #0cf;
+}
+
+.hc-full-join-1, .hc-full-join-2 {
+  stroke-miterlimit: 10;
+}
+
+.hc-full-join-2 {
+  fill: none;
+  stroke: #fff;
+}

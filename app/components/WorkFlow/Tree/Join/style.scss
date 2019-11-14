@@ -1,0 +1,27 @@
+/**
+ *@Author: hy-zhangb
+ *Date: 2018/10/24 15:49
+ *@Last Modified by: hy-zhangb
+ *@Last Modified time: 2018/10/24 15:49
+ *Email: lovewinders@163.com
+ *File Path: jointable - style
+ *@File Name: style
+ *@Description: Description
+ */
+.hm-join {
+  position: absolute;
+  z-index: 1;
+  left: -89px;
+  //top: 50%;
+  top: 14px;
+  width: 48px;
+  height: 30px;
+  line-height: 25px;
+  margin-top: -13px;
+  text-align: center;
+  //border: 1px solid #ddd;
+  //border-radius: 50%;
+  color: #999;
+  //background: #fff;
+  cursor: pointer;
+}
